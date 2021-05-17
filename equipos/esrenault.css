@@ -1,0 +1,211 @@
+
+*{
+    padding: 0;
+  }
+  .body-ren{
+    height: 100vh;
+    width: 100vw;
+    background-color: #c6ce00;
+    color: black;
+  }
+  /* fin parte principal */
+  /* Header */
+  header{
+    border: 1px solid gray;
+    border-radius: 7%;
+    margin-top: 15px;
+    margin-left: 500px;
+    background-color: gray;
+    width: 800px;
+  }
+  .title {
+    width: 450px;
+    margin: 5px auto;
+    border: 1px solid gray;
+  }
+  .title aside{
+    
+      font:bold 32px Gill Sans;
+      font-style: italic;
+      width: 400px;
+      color: white;
+      text-align: center;
+      margin-top: 15px;
+      margin-left: 20px;
+      border: 1px solid gray;
+      
+  }
+  .title .imag {
+    width: 120px;
+    height: 60px;
+    float: left;
+    margin-right: 15px;
+    margin-left: -150px;
+    margin-top: 5px;
+    border-radius: 5% 10%;
+  }
+  div.reset {
+    clear: both;
+  }
+  /* Fin Header */
+  /* Menu */
+  .menu{
+    background: grey;
+    padding: 2px;
+    text-align: center;
+    margin-left: 10px;
+    
+  }
+  .nd {
+    text-decoration:none;
+    color: white;
+  }
+  .nd:hover {
+    text-decoration:underline;
+    color: white;
+    font-size: 18px;
+  }
+  .menu li{
+    list-style: none;
+    padding: 0px;
+    font: bold 12px verdana;
+    display: inline-block;
+    text-decoration: dashed;
+  }
+  /* Fin Menu */
+  div.reset {
+    clear: both;
+  }
+  
+  
+  
+  
+  /* Renault */
+  .div-ren{
+      margin-left: 10px;
+    }
+    .up-ren {
+      width: 850px;
+    }
+    .up-ren aside{
+      font:bold 28px Gill Sans;
+      font-style: italic;
+      width: 600px;
+      color: white;
+      text-align: left;
+      margin-top: 10px;
+      margin-bottom: 50px;
+      margin-left: 20px;
+    }
+    .up-ren .img-log-ren {
+      width: 235px;
+      height: 140px;
+      float: right;
+      background:transparent;
+      margin-right: 220px;
+      margin-top: -20px;
+      border-radius: 2.3em;
+    }
+    .article-ren{
+      font-size: 18px;
+      margin-left: 20px;
+      text-align: center;
+    }
+    .div-pilotos-ren{
+      margin-left: 15px;
+      height: 100px;
+    }
+    .div-pilotos-ren h1{
+      color: rgb(2, 1, 1);
+      text-decoration: underline;
+      margin-bottom: -10px;
+    }
+    .div-pilotos-ren p{
+      font-size: 18px;
+    
+    }
+    .div-ren .img-pil{
+        width: 384px;
+        height: 216px;
+    }
+    
+    /* Daniel */
+    .name-dan{
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 18px;
+      font-weight: bolder;
+      text-align: center;
+      margin-top: 10px;
+      width: 180px;
+      margin-left: 100px;
+    }
+    .aside-daniel{
+      height: 300px;
+    }
+    
+    #img-dan{
+      margin-top: 20px;
+      margin-left: 5px;
+      width: 374px;
+    }
+    .p-daniel{
+      font-size: 20px;
+      margin-left: 400px;
+      margin-right: 20px;
+      margin-top: -245px;
+      text-align: center;
+      border: 2px dashed rgb(108, 11, 219);
+    }
+    /* Fin Daniel */
+    /* Esteban */
+    .name-est{
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 18px;
+      font-weight: bolder;
+      text-align: center;
+      margin-top: 10px;
+      width: 180px;
+      margin-left: 100px;
+    }
+    .aside-esteban{
+      height: 300px;
+    }
+    
+    #img-est{
+      margin-left: 5px;
+      margin-top: 20px;
+    }
+    .p-esteban{
+      font-size: 20px;
+      margin-left: 400px;
+      margin-right: 20px;
+      margin-top: -235px;
+      text-align: center;
+      border: 2px dashed rgb(108, 11, 219);
+    }
+    /* Fin Esteban */
+    
+    .coche-ren{
+    margin-left: 690px;
+    float: center;
+    width: 500px;
+    }
+    .img-car-ren{
+    width: 597,5px;
+    height: 195px;
+    margin-left:520px;
+    margin-bottom: 14px;
+    border-radius: 18% 18% 18% 18% ;
+    }
+    /* Fin Renault */
+    
+    .foot{
+      text-align: center;
+      padding: 5px;
+      background: #2d3436;
+      color: white;
+      margin-top: 15px;
+    }
+    div.reset {
+      clear: both;
+    }

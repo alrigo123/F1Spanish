@@ -1,0 +1,219 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.body-mer{
+  height: 100vh;
+  width: 100vw;
+  background-color:#56cebc;
+}
+/* fin parte principal */
+/* Header */
+header{
+  border: 1px solid gray;
+  border-radius: 7%;
+  margin-top: 15px;
+  margin-left: 500px;
+  background-color: gray;
+  width: 800px;
+}
+.title {
+  width: 450px;
+  margin: 5px auto;
+  border: 1px solid gray;
+}
+.title aside{
+  
+    font:bold 32px Gill Sans;
+    font-style: italic;
+    width: 400px;
+    color: black;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 20px;
+    border: 1px solid gray;
+    
+}
+.title .imag {
+  width: 120px;
+  height: 60px;
+  float: left;
+  margin-right: 15px;
+  margin-left: -150px;
+  margin-top: 5px;
+  border-radius: 5% 10%;
+}
+div.reset {
+  clear: both;
+}
+/* Fin Header */
+/* Menu */
+.menu{
+  background: grey;
+  padding: 2px;
+  text-align: center;
+  margin-left: 10px;
+  
+}
+.nd {
+  text-decoration:none;
+  color: black;
+}
+.nd:hover {
+  text-decoration:underline;
+  color: white;
+  font-size: 18px;
+}
+.menu li{
+  list-style: none;
+  padding: 0px;
+  font: bold 12px verdana;
+  display: inline-block;
+  text-decoration: dashed;
+}
+/* Fin Menu */
+div.reset {
+  clear: both;
+}
+.foot{
+  text-align: center;
+  padding: 5px;
+  background: #2d3436;
+  color: white;
+  margin-top: 15px;
+}
+
+
+
+
+/* Parte Mercedes */
+
+.div-mer{
+    margin-left: 10px;
+  }
+  .up-mer {
+    width: 850px;
+  }
+  .up-mer aside{
+    font:bold 28px Gill Sans;
+    font-style: italic;
+    width: 600px;
+    color: black;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+  }
+  .up-mer .img-log-mer {
+    width:120px;
+  height: 110px;
+    float: right;
+    margin-right: 180px;
+    margin-top: 0px;
+    border-radius: 30%;
+  }
+  .article-mer{
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 30px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    text-align: center;
+  }
+  .div-pilotos-mer{
+    margin-left: 15px;
+    height: 100px;
+  }
+  .div-pilotos-mer h1{
+
+    color: rgb(5, 128, 32);
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-decoration: underline;
+  }
+  .div-pilotos-mer p{
+    color: black;
+    font-size: 18px;
+  
+  }
+  .div-mer .img-pil{
+      width: 384px;
+      height: 216px;
+  }
+  
+  /* Lewis */
+  .name-lew{
+    font-family: 'Noto Serif', serif;
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 10px;
+    width: 180px;
+    margin-left: 100px;
+  }
+  .aside-lewis{
+    height: 300px;
+  }
+  
+  #img-lew{
+    margin-top: 20px;
+  }
+  .p-lewis{
+    font-size: 20px;
+    margin-left: 400px;
+    margin-right: 60px;
+    margin-top: -215px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    letter-spacing:1pt;
+    border: 2px dashed rgb(108, 11, 219);
+  }
+  /* Fin Lewis */
+  /* Valteri */
+  .name-val{
+    font-family: 'Noto Serif', serif;
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 10px;
+    width: 180px;
+    margin-left: 100px;
+  }
+  .aside-valteri{
+    height: 300px;
+  }
+  #img-val{
+    margin-top: 20px;
+  }
+  .p-valteri{
+    font-size: 20px;
+    margin-left: 400px;
+    margin-right: 60px;
+    margin-top: -205px;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 1pt;
+    font-family: 'Raleway', sans-serif;
+    border: 2px dashed rgb(108, 11, 219);
+  }
+  /* Fin Valteri */
+  .down-mer{ 
+    margin-bottom:100px;
+}
+  .coche-mer{
+  margin-left: 690px;
+  float: center;
+  width: 500px;
+  }
+  .img-car-mer{
+  width: 597,5px;
+  height: 195px;
+  margin-left: 620px;
+  margin-bottom: 14px;
+  border-radius: 18% 18% 18% 18% ;
+  }
+  /* Fin Parte Mercedez */
+  div.reset {
+    clear: both;
+  }

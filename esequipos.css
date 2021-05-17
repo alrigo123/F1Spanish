@@ -1,0 +1,456 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: rgb(73, 73, 73);
+  overflow-x: hidden ;
+}
+/* fin parte principal */
+/* Header */
+header{
+  border: 1px none gray;
+  border-radius: 7%;
+  margin-top: 35px;
+  margin-left: 500px;
+  width: 800px;
+}
+.title {
+  width: 450px;
+  margin: 5px auto;
+  border: 1px none gray;
+}
+.title aside{
+    font:bold 32px Gill Sans;
+    font-family: 'Goldman', cursive;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 20px;
+    border: 1px none gray;
+    
+}
+.title .imag {
+  width: 175px;
+  height: 75px;
+  float: left;
+  margin-right: 15px;
+  margin-left: -150px;
+  margin-top: -5px;
+  border-radius: 5% 10%;
+}
+div.reset {
+  clear: both;
+}
+/* Fin Header */
+/* Menu */
+.div__menu{
+  background-color:rgb(95, 95, 95);
+  text-align: center;
+  outline: 1px none red;
+  padding: 12px;
+  width:600px;
+  margin-left:540px;
+  margin-top:70px;
+  transform: translateY(-43px);
+  border-radius:2.8em;
+}
+.menu li{
+  list-style: none;
+  font: bold 13px verdana;
+  padding-left: 6px;
+  display: inline-block;
+}
+.menu i{
+  color:rgb(202, 101, 6);
+}
+.menu a{
+  color: rgb(0, 0, 0);
+  text-decoration:none;
+}
+
+.menu a:hover{
+  color: rgb(255, 255, 255);
+  text-decoration:underline;
+  font-size:14px;
+} 
+/* Fin Menu */
+/* Equipos */
+.div-mer{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  height: 200px;
+  width: 800px;
+}
+.aside-mer{
+  /* border : 1px solid blue; */
+  margin-top: -100px;
+  margin-left: 15px;
+  width: 600px;
+}
+.title-mer{
+  /* border : 1px solid black; */
+  font:bold 38px Gill Sans;
+  color: #38B09D;
+  margin-left: 35px;
+  margin-top:80px;
+  font-style: italic;
+  text-decoration: none;
+}
+.title-mer:hover{
+text-decoration: underline;
+}
+.img-log-mer{
+  width:150px;
+  height: 140px;
+  margin-top:20px;
+  margin-left: 580px;
+  border-radius: 25px;
+  transition: height .2s,  width .4s, outline .4s; 
+}
+.img-log-mer:hover{
+  width:160px;
+  height: 150px;
+  transition: height .2s,  width .4s, outline .4s;
+}
+.div-fer{
+  /* border: 3px solid red; */
+  margin-left: 850px;
+  margin-top: -225px;
+  height: 200px;
+  width: 800px;
+}
+.aside-fer{
+  /* border : 1px solid blue; */
+  margin-top: -100px;
+  margin-left: 150px;
+  width: 600px;
+}
+.title-fer{
+  /* border : 1px solid black; */
+  font:bold 38px Gill Sans;
+  color: red;
+  font-style: italic;
+  text-decoration: none;
+}
+.title-fer:hover{
+  text-decoration: underline;
+}
+.img-log-fer{
+  width:130px;
+  height: 140px;
+  margin-top:20px;
+  margin-left: 480px;
+  border-radius: 25px;
+  transition: height .2s,  width .4s, outline .4s;
+}
+.img-log-fer:hover{
+  width:140px;
+  height:150px;
+  transition: height .2s,  width .4s, outline .4s;
+}
+
+.div-red{
+  /* border: 3px solid rgb(15, 12, 148); */
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  height: 200px;
+  width: 800px;
+}
+.aside-red{
+  /* border : 1px solid blue; */
+  margin-top: -95px;
+  margin-left: 15px;
+  width: 600px;
+}
+.title-red{
+  /* border : 1px solid black; */
+  font:bold 38px Gill Sans;
+  color: rgb(15, 12, 148);
+  font-style: italic;
+  text-decoration: none;
+}
+.title-red:hover{
+  text-decoration: underline;
+}
+.img-log-red{
+  width:180px;
+  height: 140px;
+  margin-top:20px;
+  margin-left: 565px;
+  border-radius: 25px;
+  transition: height .2s,  width .4s, outline .4s;
+}
+.img-log-red:hover{
+  width:190px;
+  height: 140px;
+  transition: height .2s,  width .4s, outline .4s;
+}
+
+
+.div-mcl{
+  margin-left: 850px;
+  margin-top: -225px;
+  height: 200px;
+  width: 800px;
+}
+.aside-mcl{
+  margin-top: -100px;
+  margin-left: 150px;
+  width: 600px;
+}
+.title-mcl{
+  font:bold 38px Gill Sans;
+  color: orange;
+  font-style: italic;
+  text-decoration: none;
+}
+.title-mcl:hover{
+  text-decoration: underline;
+}
+.img-log-mcl{
+  width:170px;
+  height: 150px;
+  margin-top:10px;
+  margin-left: 480px;
+  border-radius: 25px;
+  transition: height .2s,  width .4s, outline .4s;
+}
+.img-log-mcl:hover{
+  width:180px;
+  height: 150px;
+  transition: height .2s,  width .4s, outline .4s;
+}
+
+
+.div-rac{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  height: 200px;
+  width: 800px;
+}
+.aside-rac{
+  margin-top: -95px;
+  margin-left: 15px;
+  width: 600px;
+}
+.title-rac{
+  font:bold 38px Gill Sans;
+  color: 	#c5377e;
+  font-style: italic;
+  text-decoration: none;
+}
+.title-rac:hover{
+  text-decoration: underline;
+}
+.img-log-rac{
+  width: 150px;
+  height: 140px;
+  margin-top:20px;
+  margin-left: 560px;
+  border-radius: 25px;
+  transition: height .2s,  width .4s, outline .4s;
+}
+.img-log-rac:hover{
+  width: 160px;
+  height: 150px;
+  transition: height .2s,  width .4s, outline .4s;
+}
+
+.div-ren{
+  margin-left: 850px;
+  margin-top: -225px;
+  height: 200px;
+  width: 800px;
+}
+.aside-ren{
+  margin-top: -100px;
+  margin-left: 200px;
+  width: 600px;
+}
+.title-ren{
+  font:bold 38px Gill Sans;
+  color:rgb(230, 230, 25);
+  font-style: italic;
+  text-decoration: none;
+}
+.title-ren:hover{
+  text-decoration: underline;
+}
+.img-log-ren{
+  width:150px;
+  height: 150px;
+  margin-top:10px;
+  margin-left: 480px;
+  border-radius: 25px;
+  transition: height .2s,  width .4s, outline .4s;
+}
+.img-log-ren:hover{
+  width:160px;
+  height: 160px;
+  transition: height .2s,  width .4s, outline .4s;
+}
+
+
+/* otros 4 equipos */
+.div-alp{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  height: 200px;
+  width: 800px;
+}
+.aside-alp{
+  margin-top: -95px;
+  margin-left: 175px;
+  width: 600px;
+}
+.title-alp{
+  font:bold 38px Gill Sans;
+  color: rgb(15, 12, 148);
+  font-style: italic;
+  text-decoration: none;
+}
+.title-alp:hover{
+  text-decoration: underline;
+}
+.img-log-alp{
+  width:190px;
+  height: 140px;
+  margin-top:20px;
+  margin-left: 550px;
+  border-radius: 25px;
+  transition: height .2s,  width .4s, outline .4s;
+}
+.img-log-alp:hover{
+  width:200px;
+  height: 150px;
+  transition: height .2s,  width .4s, outline .4s;
+}
+
+.div-alf{
+  margin-left: 850px;
+  margin-top: -225px;
+  height: 200px;
+  width: 800px;
+}
+.aside-alf{
+  margin-top: -100px;
+  margin-left: 150px;
+  width: 600px;
+}
+.title-alf{
+  font:bold 38px Gill Sans;
+  color:  rgb(177, 40, 35);
+  font-style: italic;
+  text-decoration: none;
+}
+.title-alf:hover{
+  text-decoration: underline;
+}
+.img-log-alf{
+  width:150px;
+  height: 160px;
+  margin-top:10px;
+  margin-left: 480px;
+  border-radius: 25px;
+  transition: height .2s,  width .4s, outline .4s;
+}
+.img-log-alf:hover{
+  width:160px;
+  height: 170px;
+  transition: height .2s,  width .4s, outline .4s;
+}
+.div-haa{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  height: 200px;
+  width: 800px;
+}
+.aside-haa{
+  margin-top: -95px;
+  margin-left: 250px;
+  width: 600px;
+}
+.title-haa{
+  font:bold 38px Gill Sans;
+  color: 	#ff0000;
+  font-style: italic;
+  text-decoration: none;
+}
+.title-haa:hover{
+  text-decoration: underline;
+}
+.img-log-haa{
+  width:170px;
+  height: 140px;
+  margin-top:20px;
+  margin-left: 550px;
+  border-radius: 25px;
+  transition: height .2s,  width .4s, outline .4s;
+}
+.img-log-haa:hover{
+  width:180px;
+  height: 150px;
+  transition: height .2s,  width .4s, outline .4s;
+}
+.div-wil{
+  margin-left: 850px;
+  margin-top: -225px;
+  height: 200px;
+  width: 800px;
+}
+.aside-wil{
+  margin-top: -90px;
+  margin-left: 200px;
+  width: 600px;
+}
+.title-wil{
+  font:bold 38px Gill Sans;
+  color:rgb(5, 5, 104);
+  font-style: italic;
+  text-decoration: none;
+}
+.title-wil:hover{
+  text-decoration: underline;
+}
+.img-log-wil{
+  width:160px;
+  height: 120px;
+  margin-top:40px;
+  margin-left: 480px;
+  border-radius: 25px;
+  transition: height .2s,  width .4s, outline .4s;
+}
+.img-log-wil:hover{
+  width:170px;
+  height: 130px;
+  transition: height .2s,  width .4s, outline .4s;
+}
+
+
+/* Fin Equipos */
+div.reset {
+  clear: both;
+}
+.foot{
+  text-align: center;
+  padding: 5px;
+  width:100vw;
+  background: #2d3436;
+  color: white;
+  margin-top: 15px;
+}
+
+@media only screen and (max-width: 500px){
+body{
+  background-color: red;
+}
+  
+}
+
+

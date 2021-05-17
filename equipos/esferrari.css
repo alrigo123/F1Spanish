@@ -1,0 +1,207 @@
+*{
+  padding: 0;
+}
+.body-fer{
+  height: 100vh;
+  width: 100vw;
+  background-color:rgb(201, 100, 100);
+}
+/* fin parte principal */
+/* Header */
+header{
+  border: 1px solid gray;
+  border-radius: 7%;
+  margin-top: 15px;
+  margin-left: 500px;
+  background-color: gray;
+  width: 800px;
+}
+.title {
+  width: 450px;
+  margin: 5px auto;
+  border: 1px solid gray;
+}
+.title aside{
+  
+    font:bold 32px Gill Sans;
+    font-style: italic;
+    width: 400px;
+    color: black;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 20px;
+    border: 1px solid gray;
+    
+}
+.title .imag {
+  width: 120px;
+  height: 60px;
+  float: left;
+  margin-right: 15px;
+  margin-left: -150px;
+  margin-top: 5px;
+  border-radius: 5% 10%;
+}
+div.reset {
+  clear: both;
+}
+/* Fin Header */
+/* Menu */
+.menu{
+  background: grey;
+  padding: 2px;
+  text-align: center;
+  margin-left: 10px;
+  
+}
+.nd {
+  text-decoration:none;
+  color: black;
+}
+.nd:hover {
+  text-decoration:underline;
+  color: white;
+  font-size: 18px;
+}
+.menu li{
+  list-style: none;
+  padding: 0px;
+  font: bold 12px verdana;
+  display: inline-block;
+  text-decoration: dashed;
+}
+/* Fin Menu */
+div.reset {
+  clear: both;
+}
+.foot{
+  text-align: center;
+  padding: 5px;
+  background: #2d3436;
+  color: white;
+  margin-top: 15px;
+}
+
+
+
+/* Ferrari */
+.div-fer{
+    margin-left: 10px;
+  }
+  .up-fer {
+    width: 850px;
+  }
+  .up-fer aside{
+    font:bold 28px Gill Sans;
+    font-style: italic;
+    width: 600px;
+    color: black;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+  }
+  .up-fer .img-log-fer {
+    width: 135px;
+    height: 140px;
+    float: right;
+    background:transparent;
+    margin-right: 320px;
+    margin-top: -20px;
+  }
+  .article-fer{
+    font-size: 18px;
+    margin-left: 20px;
+    text-align: center;
+  }
+  .div-pilotos-fer{
+    margin-left: 15px;
+    height: 100px;
+  }
+  .div-pilotos-fer h1{
+    color: rgb(2, 1, 1);
+    text-decoration: underline;
+    margin-bottom: -10px;
+  }
+  .div-pilotos-fer p{
+    font-size: 18px;
+  
+  }
+  .div-fer .img-pil{
+      width: 384px;
+      height: 216px;
+  }
+  
+  /* Sebastian */
+  .name-seb{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 10px;
+    width: 180px;
+    margin-left: 100px;
+  }
+  .aside-sebastian{
+    height: 300px;
+  }
+  
+  #img-seb{
+    margin-top: 20px;
+    margin-left: 5px;
+    width: 374px;
+  }
+  .p-sebastian{
+    font-size: 20px;
+    margin-left: 400px;
+    margin-right: 20px;
+    margin-top: -245px;
+    text-align: center;
+    border: 2px dashed rgb(108, 11, 219);
+  }
+  /* Fin sebastian */
+  /* Charles */
+  .name-cha{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 10px;
+    width: 180px;
+    margin-left: 100px;
+  }
+  .aside-charles{
+    height: 300px;
+  }
+  
+  #img-cha{
+    margin-left: 5px;
+    margin-top: 20px;
+  }
+  .p-charles{
+    font-size: 20px;
+    margin-left: 400px;
+    margin-right: 20px;
+    margin-top: -235px;
+    text-align: center;
+    border: 2px dashed rgb(108, 11, 219);
+  }
+  /* Fin charles */
+  
+  .coche-fer{
+  margin-left: 690px;
+  float: center;
+  width: 500px;
+  }
+  .img-car-fer{
+  width: 597,5px;
+  height: 195px;
+  margin-left: 620px;
+  margin-bottom: 14px;
+  border-radius: 18% 18% 18% 18% ;
+  }
+  /* Fin Ferrari */
+  
+  div.reset {
+    clear: both;
+  }

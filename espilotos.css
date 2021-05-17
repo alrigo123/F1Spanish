@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    background: #978a27;
+}
+
+.div{
+    width: 1200px;
+    margin: 15px auto;
+    outline: 2px none green;
+    background:  transparent;
+}
+/* header*/
+.title-aside {
+    width: 60%;
+    background-color: transparent;
+    outline:2px none blue;
+    font-size: 28px;
+    font-weight: bolder;
+    font-family: 'Goldman', cursive;
+    margin-left: 280px;
+    transform: translatey(-20px);
+  }
+  .imag {
+    outline:3px none brown;
+    width: 100%;
+    height: 800px;
+    transform:translate(-280px,50px);
+  }
+  /*------------*/
+
+/* menu contactos autor etc */
+.div__menu{
+  background-color:#6e2d0765;
+  text-align: center;
+  outline: 1px solid none;
+  padding: 12px;
+  width:560px;
+  margin-top: 40px;
+  margin-left:320px;
+  transform: translateY(-43px); 
+  border-radius:2.8em;
+}
+.menu li{
+  list-style: none;
+  font: bold 12px verdana;
+  padding-left: 6px;
+  display: inline-block;
+}
+.menu i{
+  color:rgb(29, 231, 10);
+}
+.menu a{
+  color: rgb(0, 0, 0);
+  text-decoration:none;
+}
+
+.menu a:hover{
+  color: rgb(25, 3, 153);
+  text-decoration:underline;
+  font-size:13px;
+} 
+/*-------------------*/
+
+
+/*senna*/
+.section-senna{
+  margin-bottom: 18px;
+  margin-top: 18px;
+}
+  .div-senna {
+    width: 60%;
+    margin: 20px auto;
+    background-color: #6e2d0765;
+    padding: 0px;
+    border: 1px dashed black;
+    padding: 20px;
+    margin: 5px auto;
+    width: 1020px;
+    border-radius: 20px;
+}
+  .div-senna aside{ 
+    outline:1px none yellow;
+    text-align: justify;
+    margin-right: -5px; 
+    padding-left: 12px;    
+    padding-right: 10px; 
+    height: 180px; 
+    overflow: auto;
+  }
+  .div-senna .img-senna {
+    float: left;
+    margin: auto 15px;
+    margin-top: 0px;
+    padding: 15px;
+    width: 150px;
+    height: 150px;
+    border-radius:2.2em ;
+    transition: height 0.2s,  width .4s, outline .4s; 
+  }
+  .div-senna .img-senna:hover {
+    width: 160px;
+    height: 160px;
+    transition: height 0.2s,  width .4s, outline .4s; 
+  }
+  .p-senna{
+    outline:1px none green;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  .h2-senna{
+    font-size: 22px;
+  }
+  .h3-senna{
+    font-size: 22px;
+    font-weight: bold;
+    font-style: oblique;
+  }
+  .h2-senna , .h3-senna{
+    display: inline;
+  } 
+/* ---fin senna-- */
+/* -- Alain Prost -- */
+.section-prost{
+  margin-bottom: 18px;
+}
+  .div-prost {
+    width: 60%;
+    margin: 20px auto;
+    background-color: #6e2d0765;
+    padding: 0px;
+    padding: 20px;
+    margin: 5px auto;
+    width: 1020px;
+    border: 1px dashed black;
+    border-radius: 20px;
+  }
+
+  .div-prost aside{ 
+    color: black;
+    text-align: justify;
+    margin-right: -5px;     
+    height: 150px; 
+  }
+  .div-prost .img-prost {
+    float: right;
+    margin: auto 15px;
+    margin-top: -10px;
+    padding: 15px;
+    width: 150px;
+    height: 150px;
+    border-radius:2.2em ;
+    transition: height 0.2s,  width .4s, outline .4s; 
+  }
+  .div-prost .img-prost:hover {
+    width: 160px;
+    height: 160px;
+    transition: height 0.2s,  width .4s, outline .4s; 
+  }
+
+  .p-prost{
+    
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  .h2-prost{
+    font-size: 22px;
+  }
+  .h3-prost{
+    font-size: 22px;
+    font-weight: bold;
+    font-style: oblique;
+  }
+  .h2-prost , .h3-prost{
+    display: inline;
+  }
+/* -- fin Prost --*/
+/*-- fangio --*/
+.section-fangio{
+  margin-bottom: 18px;
+}
+  .div-fangio {
+    width: 60%;
+    margin: 20px auto;
+    background-color: #6e2d0765;
+    padding: 0px;
+    padding: 20px;
+    margin: 5px auto;
+    width: 1020px;
+    border: 1px dashed black;
+    border-radius: 20px;
+  }
+
+  .div-fangio aside{ 
+    color: black;
+    text-align: justify;
+    margin-right: -5px;     
+    height: 150px; 
+  }
+  .div-fangio .img-fangio {
+    float: left;
+   margin: auto 15px;
+   margin-top: -10px;
+   padding: 15px;
+    width: 150px;
+      height: 150px;
+    border-radius: 2.2em;
+    transition: height 0.2s,  width .4s, outline .4s; 
+  }
+  .div-fangio .img-fangio:hover{
+    width: 160px;
+    height: 160px;
+    transition: height 0.2s,  width .4s, outline .4s; 
+  }
+  .p-fangio{
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  .h2-fangio{
+    font-size: 22px;
+  }
+  .h3-fangio{
+    font-size: 22px;
+    font-weight: bold;
+    font-style: oblique;
+  }
+  .h2-fangio , .h3-fangio{
+    display: inline;
+  }
+/* --- fin fangio -- */
+
+/* --- Schu -- */
+.section-schu{
+  margin-bottom: 18px;
+}
+  .div-schu {
+    width: 60%;
+    margin: 20px auto;
+    background-color: #6e2d0765;
+    padding: 0px;
+    padding: 20px;
+      margin: 5px auto;
+      width: 1020px;
+      border: 1px dashed black;
+      border-radius: 20px;
+  }
+
+  .div-schu aside{ 
+    color: black;
+    text-align: justify;
+    margin-right: -5px;     
+    height: 150px; 
+  }
+  .div-schu .img-schu {
+    float: right;
+   margin: auto 15px;
+   margin-top: -10px;
+   padding: 15px;
+    width: 150px;
+    height: 150px;
+    border-radius:2.2em;
+    transition: height 0.2s,  width .4s, outline .4s; 
+  }
+  .div-schu .img-schu:hover {
+    width: 160px;
+    height: 160px;
+    transition: height 0.2s,  width .4s, outline .4s; 
+  }
+
+
+  .p-schu{
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  .h2-schu{
+    font-size: 22px;
+  }
+  .h3-schu{
+    font-size: 22px;
+    font-weight: bold;
+    font-style: oblique;
+  }
+  .h2-schu , .h3-schu{
+    display: inline;
+  }
+/* --- fin Schu -- */
+  div.reset {
+    clear: both;
+  }
+
+/*foter*/
+.foot{
+    padding: 5px;
+    background: #2d3436;
+    color: white;
+    margin-top: 15px;
+}
+/*-------*/
+/* imagen del logo hipervinculo*/
+.imag{
+    width: 120px;
+    height: 60px;
+    margin-top: -20px;
+    margin-left: 30px;
+    margin-right: 350px;
+}
+/*-------*/

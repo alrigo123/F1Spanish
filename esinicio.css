@@ -1,0 +1,320 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(226, 224, 224);
+}
+.container-index {
+  width: 1200px;
+  margin: 15px auto;
+  border: 2.8px none red;
+  background: rgb(5, 79, 102);
+  text-align: left;
+  animation: drop 2.5s ease;
+}
+
+.div__header .header {
+  outline: 2px none green;
+  background: rgb(48, 46, 46);
+  display: block;
+  padding: 30px;
+  height: 30px;
+}
+.img-logo {
+  width: 175px;
+  height: 75px;
+  margin-top: -20px;
+  margin-left: 80px;
+  outline: 3px transparent darkcyan;
+  animation: drop 1.5s ease;
+}
+.h1-title {
+  font-family: "Goldman", cursive;
+  font-size: 36px;
+  outline: 2px none blue;
+  display: inline-block;
+  color: white;
+  margin-left: 420px;
+  transform: translateY(-60px);
+}
+
+.div__menu {
+  background-color: #e9e9e7;
+  text-align: center;
+  outline: 1px solid none;
+  padding: 12px;
+  width: 560px;
+  margin-left: 320px;
+  transform: translateY(-43px);
+  border-radius: 2.8em;
+}
+.menu li {
+  list-style: none;
+  font: bold 12px verdana;
+  padding-left: 6px;
+  display: inline-block;
+}
+
+.menu i {
+  color: rgb(16, 112, 8);
+}
+.menu a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: red;
+  text-decoration: underline;
+  font-size: 13px;
+}
+
+.reference {
+  font-weight: bold;
+  width: 500px;
+  padding: 20px;
+  margin: 1px auto;
+  transform: translateY(-20px);
+  background: #e9e9e7;
+  border: 1px none black;
+  text-align: center;
+  border-radius: 2.1em;
+}
+.link-f1 {
+  font-style: oblique;
+  outline: 2px none purple;
+}
+.img-site-f1 {
+  margin-top: 20px;
+  outline: 2px none pink;
+  width: 80px;
+  border-radius: 10px;
+  transition: height 0.2s, width 0.4s, outline 0.4s;
+}
+.img-site-f1:hover {
+  width: 100px;
+  transition: height 0.2s, width 0.4s, outline 0.4s;
+}
+
+.info {
+  border: 1px solid #999999;
+  margin-bottom: 15px;
+  width: 800px;
+  border-radius: 1.2em;
+  margin-left: 20px;
+  background: #e9e9e7;
+  text-align: justify;
+  padding-top: 15px;
+  padding-right: 50px;
+  padding-left: 20px;
+}
+.info h2 {
+  margin-bottom: 8px;
+  font-family: cursive;
+  font-size: larger;
+}
+.info footer {
+  outline: 3px dashed black;
+  padding: 5px;
+  display: inline-block;
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.aside {
+  border: 1px dashed black;
+  background-color: rgb(158, 154, 154);
+  padding-top: 10px;
+  padding-left: 20px;
+  margin-top: -280px;
+  width: 220px;
+  margin-right: 40px;
+  height: 50%;
+  float: right;
+  border-radius: 1.2em;
+}
+.aside i {
+  font-size: 25px;
+  margin-left: 15px;
+  color: red;
+}
+
+.aside li {
+  padding-top: 5px;
+  padding-bottom: 12px;
+  font: bold 12px verdana;
+  display: block;
+  text-decoration: none;
+  margin-top: 5px;
+  text-align: left;
+}
+
+.foot {
+  clear: both;
+  width: 100%;
+  padding-top: 5px;
+  background: #2d3436;
+  color: white;
+  display: block;
+  text-align: center;
+}
+
+@keyframes drop {
+  0% {
+    opacity: 0;
+    transform: translateY(-80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@media only screen and (max-width: 1230px) {
+  .container-index {
+    background-color: teal;
+  }
+  body {
+    background-color: rgb(209, 209, 209);
+  }
+
+  .container-index {
+    width: 800px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    border: 2.8px none rgb(216, 216, 216);
+    background: rgb(49, 49, 49);
+  }
+
+  .div__header .header {
+    outline: 2px none green;
+    background: rgb(39, 38, 38);
+    display: block;
+    padding: 30px;
+    height: 30px;
+  }
+  .img-logo {
+    width: 175px;
+    height: 75px;
+    margin-top: -20px;
+    margin-right: 300px;
+    outline: 3px transparent darkcyan;
+  }
+  .h1-title {
+    font-family: "Goldman", cursive;
+    font-size: 36px;
+    outline: 1px none blue;
+    display: block;
+    color: rgb(255, 254, 254);
+    margin-top: -29px;
+    margin-left: 420px;
+    transform: translateY(-60px);
+  }
+
+  .div__menu {
+    margin-top: 20px;
+    margin-left: 10px;
+    display: inline-block;
+    text-align: left;
+    background-color: rgb(184, 184, 184);
+    list-style: none;
+    transform: translateY(-75px);
+  }
+  .menu li {
+    font-size: 18px;
+    list-style: none;
+    font: bold 12px verdana;
+    padding-left: 8px;
+    display: inline-block;
+  }
+  .menu i {
+    color: rgb(170, 162, 85);
+  }
+  .menu a {
+    color: rgb(84, 132, 160);
+    text-decoration: none;
+  }
+
+  .reference {
+    font-weight: normal;
+    color: rgb(196, 196, 196);
+    width: 300px;
+    font-size: 18px;
+    padding: 20px;
+    margin: 1px auto;
+    margin-top: -40px;
+    transform: translateY(-20px);
+    background: rgb(100, 98, 98);
+    border: 1px none black;
+    text-align: center;
+    border-radius: 2.1em;
+  }
+  .link-f1 {
+    font-style: oblique;
+    outline: 2px none purple;
+  }
+  .img-site-f1 {
+    margin-top: 20px;
+    outline: 2px none pink;
+    width: 80px;
+    border-radius: 10px;
+    transition: height 0.2s, width 0.4s, outline 0.4s;
+  }
+
+  .info {
+    border: 1px solid #999999;
+    margin-bottom: 15px;
+    width: 400px;
+    border-radius: 1.2em;
+    margin-left: 20px;
+    background: rgb(202, 198, 198);
+    text-align: justify;
+    padding-top: 19px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  .info h2 {
+    margin-bottom: 8px;
+    font-family: cursive;
+    font-size: larger;
+  }
+  .info footer {
+    outline: 3px dashed black;
+    padding: 5px;
+    display: inline-block;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+
+  .aside {
+    border: 1px dashed black;
+    background-color: rgb(158, 154, 154);
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-top: -300px;
+    width: 220px;
+    margin-right: 40px;
+    height: 50%;
+    float: right;
+    border-radius: 1.2em;
+  }
+  .aside i {
+    font-size: 25px;
+    margin-left: 15px;
+    color: red;
+  }
+
+  .aside li {
+    padding-top: 5px;
+    padding-bottom: 12px;
+    font: bold 12px verdana;
+    display: block;
+    text-decoration: none;
+    margin-top: 5px;
+    text-align: left;
+  }
+}

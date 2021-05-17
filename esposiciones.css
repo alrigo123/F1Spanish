@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    background: #5a5b5c;
+    animation: drop 4.5s ease;
+}
+.div{
+    width: 1200px;
+    margin: 15px auto;
+    border: 1px none black;
+}
+/* header*/
+header{
+    margin-top: 50px;
+    font-family: 'Goldman', cursive;
+    outline:1px none red;
+    width:50%;
+    margin-left: 300px;
+    text-align: center;
+}
+.title aside{
+      font:bold 28px 'Goldman', cursive;;
+      font-style: italic;
+      width: 400px;
+      color: black;
+      text-align: center;
+      margin-top:5px;
+      margin-left: 200px;
+  }
+  /* imagen del logo hipervinculo*/
+  .title .imag {
+    width: 140px;
+    height: 80px;
+    float: left;
+    margin-left: 50px;
+    top: 55px;
+    outline: 1px none green;
+  }
+  div.reset {
+    clear: both;
+  }
+/*-- Fin Header --*/
+
+/* menu contactos autor etc */
+.div__menu{ 
+    background-color:#5a5b5c;
+    margin-top: 60px;
+    text-align: center;
+    border: 1px dashed white;
+    border-radius: 8px;
+    padding: 12px;
+    width:560px;    
+    margin-left:320px;
+    transform: translateY(-43px);
+    border-radius:2.8em;
+}
+.menu li{
+    list-style: none;
+    font: bold 12px verdana;
+    padding-left: 6px;
+    display: inline-block;
+}
+
+.menu i{
+    color:rgb(70, 129, 73);
+}
+.menu a{
+    color: rgb(7, 7, 7);
+    text-decoration:none;
+}
+
+.menu a:hover{
+    color: rgb(201, 201, 201);
+    text-decoration:underline;
+    font-size:13px;
+} 
+/*-------------------*/
+  /* -- Tabla -- */
+table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+    border-collapse: separate;
+    text-align: center; 
+    width: 700px;
+    background: #abbaab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 5px 5px 5px gray;
+    animation: drop 2.5s ease;
+}
+th{
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+    outline: 1px solid white;
+    border-collapse: separate;
+    margin: 0 auto;
+    text-align: center;
+}
+.color{
+    padding-right: 50px;
+    padding-left:50px;
+}
+.equipo{
+    padding: 0 80px;
+}
+#i-mer{
+    color: rgb(0, 255, 149);
+    padding-right: 8px;
+}
+#i-rb{
+    color:rgb(9, 9, 156);
+    padding-right: 8px;
+}
+#i-rp{
+    color:rgb(241, 163, 176);
+    padding-right: 8px;
+}
+#i-fe{
+    color:rgb(255, 0, 0);
+    padding-right: 8px;
+}
+#i-re{
+    color:rgb(216, 216, 15);
+    padding-right: 8px;
+}
+#i-mc{
+    color: rgba(250, 166, 10, 0.918);
+    padding-right: 8px;
+}
+#i-al{
+    color: rgba(110, 23, 23, 0.918);
+    padding-right: 8px;
+}
+#i-ha{
+    color: rgba(88, 88, 88, 0.918);
+    padding-right: 8px;
+}
+#i-wi{
+    color: rgba(15, 203, 250, 0.993);
+    padding-right: 8px;
+}
+#i-ap{
+    color: rgba(255, 255, 255, 0.993);
+    padding-right: 8px;
+}
+
+td,th{
+    border: 2px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.img-flag{
+    width: 50px;
+    height:30px;
+}
+/* Fin tabla */
+/*foter*/
+.foot{
+    width: 100%;
+    padding: 5px;
+    background: #2d3436;
+    color: white;
+    margin-top: 15px;
+}
+/*-------*/
+@keyframes drop{
+    0%{
+        opacity: 0;
+        transform: translateY(-80px);
+
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
